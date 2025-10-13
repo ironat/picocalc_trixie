@@ -77,6 +77,8 @@ APT::Install-Suggests "false";
 APT::Install-Recommends "false";
 ```
 This reduce the runtime of the next step dramatically.
+
+Now execute the script.
 ```
 chmod +x setup_keyboard.sh
 sudo ./setup_keyboard.sh
