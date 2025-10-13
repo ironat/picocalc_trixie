@@ -100,6 +100,9 @@ dtoverlay=audremap,pins_12_13
 
 ## Step 7
 So you are basically done.
+From here you can make it your own.
+For an Example:
+
 For fun you may install sdl2:
 ```
 sudo apt install libsdl2-2.0-0
@@ -111,6 +114,7 @@ sudo apt install python3-pygame
 ```
 
 Pico 8 should also work.
+Tmux would be helpful.
 
 ## Issues
 If you get an locales error execute:
