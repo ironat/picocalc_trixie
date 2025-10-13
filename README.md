@@ -4,12 +4,12 @@
 
 # Install Trixie 32 Bit Lite with Raspberry Pi Imager. 
 
-<img width="615" height="412" alt="image" src="https://github.com/user-attachments/assets/cdde44a4-9957-4e8a-b1b4-3ccfd1f240b8" />
-<img width="640" height="467" alt="image" src="https://github.com/user-attachments/assets/fd81771e-8fb5-40fa-bab7-68d8a0293ea6" />
+<img width="307" height="206" alt="image" src="https://github.com/user-attachments/assets/cdde44a4-9957-4e8a-b1b4-3ccfd1f240b8" />
+<img width="320" height="233" alt="image" src="https://github.com/user-attachments/assets/fd81771e-8fb5-40fa-bab7-68d8a0293ea6" />
 
 # Set your Username and Wifi credentials:
 
-<img width="532" height="618" alt="image" src="https://github.com/user-attachments/assets/b258ae46-d174-4195-b1f1-cce4bb51e3a6" />
+<img width="276" height="309" alt="image" src="https://github.com/user-attachments/assets/b258ae46-d174-4195-b1f1-cce4bb51e3a6" />
 
 # Enable SSH:
 
@@ -122,4 +122,9 @@ If you get an locales error execute:
 sudo dpkg-reconfigure locales
 ```
 and set it to --> en_GB.utf-8
+
+## Future Roadmap or what I like to look into:
+* Add a Battery status with Termux or byobu
+* Poweroff automatically over STM32
+* Connect a thermal camera to the back of the Picocalc (GPIOs from Pi Zero are accessable)
 
