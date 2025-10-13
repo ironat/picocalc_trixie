@@ -18,9 +18,12 @@ Burn the Image.
 
 ## Step 2
 Log into you Raspberry PI
-You have two possibilities.
+You have two possibilities:
+
 1.) Connect it to a monitor and use a Keyboard.
+
 2.) Connect it to a monitor and use ssh(Putty) to connect.
+
 
 ## Step 3
 Get Repository
