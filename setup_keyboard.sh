@@ -24,7 +24,7 @@ sudo cp ${SRC_DIR}/${KO_FILE} /lib/modules/$(uname -r)/extra/
 sudo depmod
 
 echo "📄 Step 4: Installing DTBO to /boot/firmware/overlays/..."
-sudo cp ${DTBO_DIR}/${DTBO_FILE} /boot/firmware/overlays/
+sudo cp ${DTBO_DIR}/${DTBO_FILE} /boot/overlays/
 
 echo "📝 Step 5: Updating /boot/firmware/config.txt..."
 CONFIG=/boot/firmware/config.txt
