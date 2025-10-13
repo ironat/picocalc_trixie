@@ -1,4 +1,7 @@
 # picocalc_trixie
+
+This installation is a Terminal only, no Wayland or X11.
+
 Thanks to wasdwasd0105 for initial design for the Connection the keyboard driver and the simple audio solution!
 This project uses partly the https://github.com/wasdwasd0105/picocalc-pi-zero-2 project.(Keyboard and audio)
 
