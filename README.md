@@ -14,10 +14,12 @@
 # Enable SSH:
 
 <img width="259" height="110" alt="image" src="https://github.com/user-attachments/assets/296ff83e-b6d3-4b61-8bda-c6ff84ee73b7" />
+
 Burn the Image.
 
 ## Step 2
 Log into you Raspberry PI
+
 You have two possibilities:
 
 1.) Connect it to a monitor and use a Keyboard.
