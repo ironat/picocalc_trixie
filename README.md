@@ -78,7 +78,7 @@ Your display should now working.
 Install Keyboard
 
 Before you execute the setup_keyboard.sh script ensure to set two parameters for apt.
-create a file /etc/apt/apt.conf.d/99local 
+Create the file /etc/apt/apt.conf.d/99local 
 
 Content:
 ```
