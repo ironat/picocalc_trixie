@@ -76,8 +76,10 @@ Your display should now working.
 
 ## Step 5
 Install Keyboard
+
 Before you execute the setup_keyboard.sh script ensure to set two parameters for apt.
 create a file /etc/apt/apt.conf.d/99local 
+
 Content:
 ```
 APT::Install-Suggests "false";
@@ -87,6 +89,7 @@ This reduce the runtime of the next step dramatically.
 
 Now execute the script.
 ```
+cd picocalc_trixie
 chmod +x setup_keyboard.sh
 sudo ./setup_keyboard.sh
 ```
