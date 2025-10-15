@@ -52,6 +52,11 @@ sudo cp picomipi.bin /lib/firmware/.
 ```
 Update /boot/firmware/config.txt
 
+Uncomment:
+```
+dtparam=spi=on
+```
+Copy the text below into the File
 ```
 dtoverlay=mipi-dbi-spi,spi0-0
 dtparam=compatible=picomipi\0panel-mipi-dbi-spi
