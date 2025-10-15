@@ -58,11 +58,12 @@ dtparam=spi=on
 ```
 Copy the text below into the File
 ```
-dtoverlay=mipi-dbi-spi,spi0-0
+dtoverlay=mipi-dbi-spi,spi0-0,speed=70000000
 dtparam=compatible=picomipi\0panel-mipi-dbi-spi
 dtparam=width=320,height=320,width-mm=43,height-mm=43
 dtparam=reset-gpio=25,dc-gpio=24
 dtparam=backlight-gpio=18
+dtparam=clock-frequency=50
 ```
 Edit /boot/firmware/cmdline.txt and added
 ```
