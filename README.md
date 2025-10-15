@@ -64,7 +64,7 @@ dtparam=width=320,height=320,width-mm=43,height-mm=43
 dtparam=reset-gpio=25,dc-gpio=24
 dtparam=backlight-gpio=18
 ```
-Edit /boot/firmware/cmdline.txt and adde
+Edit /boot/firmware/cmdline.txt and added
 ```
 fbcon=map:1 fbcon=font:MINI4x6
 ```
