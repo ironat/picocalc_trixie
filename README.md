@@ -133,6 +133,53 @@ sudo apt install python3-pygame
 Pico 8 should also work.
 Tmux would be helpful.
 
+## Install FBTERM
+
+Install:
+```
+sudo apt install fbterm
+```
+Start with:
+```
+ FRAMEBUFFER=/dev/fb1 fbterm
+```
+
+## Install tmux
+
+
+Install:
+```
+sudo apt install tmux
+```
+Start with:
+```
+ tmux
+```
+Battery:
+
+generate a file in
+mkdir bin
+nano ~/bin/battery
+```
+#!/bin/python3
+import subprocess
+
+result=subprocess.check_output(["cat","/sys/firmware/picocalc/battery_percent"]).decode('utf-8')
+percent = int(result)
+if (percent > 100):
+        print('C'+str(percent-128) + '%  ')
+else:
+        print(' ' + str(percent) + '%  ')
+```
+Make it executeable
+```
+chmod +x .byubo/bin/5_batt
+```
+nano .tmux.conf
+```
+set-option -ag status-right "#[fg=red,dim,bg=default]#(~/bin/battery) "
+```
+
 ## Issues
 If you get an locales error execute:
 ```
