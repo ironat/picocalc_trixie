@@ -173,7 +173,7 @@ else:
 ```
 Make it executeable
 ```
-chmod +x ~/bin/5_batt
+chmod +x ~/bin/battery
 ```
 nano .tmux.conf
 ```
