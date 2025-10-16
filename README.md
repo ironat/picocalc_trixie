@@ -123,6 +123,7 @@ For fun you may install sdl2:
 ```
 sudo apt install libsdl2-2.0-0
 sudo apt install libgles2
+sudo apt install libegl-dev
 ```
 and pygame
 ```
