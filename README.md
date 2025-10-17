@@ -29,7 +29,7 @@ You have two possibilities:
 
 1.) Connect it to a monitor and use a Keyboard.
 
-2.) Connect it to a monitor and use ssh(Putty) to connect.
+2.) Use the monitor to check for ip or use the set hostname (does not work in my network) or check the router for the IP and then use ssh(Putty) to connect.
 
 
 ## Step 3
