@@ -6,7 +6,6 @@ Thanks to wasdwasd0105 for initial design for the Connection the keyboard driver
 This project uses partly the https://github.com/wasdwasd0105/picocalc-pi-zero-2 project.(Keyboard and audio)
 
 
-__TOC__
 
 # Install Trixie 32 Bit Lite with Raspberry Pi Imager. 
 
