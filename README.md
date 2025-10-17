@@ -22,8 +22,7 @@ This project uses partly the https://github.com/wasdwasd0105/picocalc-pi-zero-2 
 
 Burn the Image.
 
-## Step 2
-Log into you Raspberry PI
+## Step 2 Log into you Raspberry PI
 
 You have two possibilities:
 
@@ -32,8 +31,7 @@ You have two possibilities:
 2.) Use the monitor to check for ip or use the set hostname (does not work in my network) or check the router for the IP and then use ssh(Putty) to connect.
 
 
-## Step 3
-Get Repository
+## Step 3 Get Repository
 When you logged in then execute:
 ```
 sudo apt update
@@ -44,8 +42,7 @@ Get this repository:
 ```
 git clone https://github.com/ironat/picocalc_trixie
 ```
-## Step 4
-Install Display
+## Step 4 Install Display
 ```
 cd picocalc_trixie
 sudo cp picomipi.bin /lib/firmware/.
@@ -80,8 +77,7 @@ sudo reboot
 ```
 Your display should now working.
 
-## Step 5
-Install Keyboard
+## Step 5 Install Keyboard
 
 Before you execute the setup_keyboard.sh script ensure to set two parameters for apt.
 Create the file /etc/apt/apt.conf.d/99local 
@@ -107,15 +103,13 @@ dtoverlay=picocalc_kbd
 ```
 If everthing went fine and you have no errors then you should have a keyboard after reboot.
 
-## Step 6
-Install audio.
+## Step 6 Install audio.
 Add to /boot/firmware/config.txt following line after dtparam=audio=on
 ```
 dtoverlay=audremap,pins_12_13
 ```
 
-## Step 7
-Switch off device on sudo poweroff
+## Step 7 Switch off device on sudo poweroff
 Create script:
 
 /usr/local/bin/picopoweroff
@@ -160,7 +154,7 @@ sudo poweroff
 ```
 picocalc should automatically switch off.
 
-## Step 8
+## Step 8 Pygame, Pico8, SDL2
 So you are basically done.
 From here you can make it your own.
 For an Example:
