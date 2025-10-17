@@ -6,8 +6,8 @@ Thanks to wasdwasd0105 for initial design for the Connection the keyboard driver
 This project uses partly the https://github.com/wasdwasd0105/picocalc-pi-zero-2 project.(Keyboard and audio)
 
 
-* TOC
-  {:toc}
+* Placeholder for Table of Content (Must not be removed) <newline> {:toc}
+
 
 
 ## Step 1
