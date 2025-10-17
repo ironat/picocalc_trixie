@@ -7,16 +7,16 @@ This project uses partly the https://github.com/wasdwasd0105/picocalc-pi-zero-2 
 
 
 
-# Install Trixie 32 Bit Lite with Raspberry Pi Imager. 
+## Step 1 Install Trixie 32 Bit Lite with Raspberry Pi Imager. 
 
 <img width="307" height="206" alt="image" src="https://github.com/user-attachments/assets/cdde44a4-9957-4e8a-b1b4-3ccfd1f240b8" />
 <img width="320" height="233" alt="image" src="https://github.com/user-attachments/assets/fd81771e-8fb5-40fa-bab7-68d8a0293ea6" />
 
-# Set your Username and Wifi credentials:
+#### Set your Username and Wifi credentials:
 
 <img width="276" height="309" alt="image" src="https://github.com/user-attachments/assets/b258ae46-d174-4195-b1f1-cce4bb51e3a6" />
 
-# Enable SSH:
+#### Enable SSH:
 
 <img width="259" height="110" alt="image" src="https://github.com/user-attachments/assets/296ff83e-b6d3-4b61-8bda-c6ff84ee73b7" />
 
