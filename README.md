@@ -115,6 +115,51 @@ dtoverlay=audremap,pins_12_13
 ```
 
 ## Step 7
+Switch off device on sudo poweroff
+Create script:
+
+/usr/local/bin/picopoweroff
+```
+#!/bin/sh
+i2cset -yf 1 0x1f 0x8e 0x00
+```
+Create Service:
+/usr/lib/systemd/system/picopoweroff.service
+```
+[Unit]
+Description=shutdown picocalc
+DefaultDependencies=no
+After=shutdown.target
+Requires=shutdown.target
+
+[Service]
+Type=oneshot
+RemainAfterExit=true
+ExecStart=/usr/local/bin/picopoweroff
+
+[Install]
+WantedBy=shutdown.target
+```
+Reboot and check status:
+```
+root@zerocalc:/home/iron# systemctl status picopoweroff
+○ picopoweroff.service - shutdown picocalc
+     Loaded: loaded (/usr/lib/systemd/system/picopoweroff.service; enabled; preset: enabled)
+     Active: inactive (dead)
+```
+(Of course it is inactive (dead) because it only starts on shutdown)
+If not enabled then enable it with:
+```
+systemctl enable picopoweroff
+```
+
+If you now execute 
+```
+sudo poweroff
+```
+picocalc should automatically switch off.
+
+## Step 8
 So you are basically done.
 From here you can make it your own.
 For an Example:
