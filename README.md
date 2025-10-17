@@ -123,16 +123,16 @@ Create Service:
 [Unit]
 Description=shutdown picocalc
 DefaultDependencies=no
-After=shutdown.target
-Requires=shutdown.target
+After=poweroff.target halt.target
+Requires=poweroff.target
 
 [Service]
 Type=oneshot
 RemainAfterExit=true
-ExecStart=/usr/local/bin/picopoweroff
+ExecStop=/usr/local/bin/picopoweroff
 
 [Install]
-WantedBy=shutdown.target
+WantedBy=poweroff.target halt.target
 ```
 Reboot and check status:
 ```
