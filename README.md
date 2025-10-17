@@ -7,10 +7,6 @@ This project uses partly the https://github.com/wasdwasd0105/picocalc-pi-zero-2 
 
 
 ##### Table of Contents  
-[Headers](#headers)  
-[Emphasis](#emphasis)  
-...snip...    
-<a name="headers"/>
 ## Headers
 
 
