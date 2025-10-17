@@ -148,6 +148,7 @@ root@zerocalc:/home/iron# systemctl status picopoweroff
      Active: inactive (dead)
 ```
 (Of course it is inactive (dead) because it only starts on shutdown)
+
 If not enabled then enable it with:
 ```
 systemctl enable picopoweroff
