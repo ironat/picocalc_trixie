@@ -112,13 +112,18 @@ dtoverlay=audremap,pins_12_13
 ## Step 7 Switch off device on sudo poweroff
 Create script:
 
-/usr/local/bin/picopoweroff
+sudo nano /usr/local/bin/picopoweroff
 ```
 #!/bin/sh
 i2cset -yf 1 0x1f 0x8e 0x00
 ```
+make it executable:
+```
+sudo chmod +x /usr/local/bin/picopoweroff
+```
+
 Create Service:
-/usr/lib/systemd/system/picopoweroff.service
+sudo nano /usr/lib/systemd/system/picopoweroff.service
 ```
 [Unit]
 Description=shutdown picocalc
