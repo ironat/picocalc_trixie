@@ -48,6 +48,9 @@ cd picocalc_trixie
 sudo cp picomipi.bin /lib/firmware/.
 ```
 Update /boot/firmware/config.txt
+```
+sudo nano /boot/firmware/config.txt
+```
 
 Uncomment:
 ```
