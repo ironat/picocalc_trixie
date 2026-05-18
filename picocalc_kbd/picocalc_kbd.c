@@ -588,7 +588,8 @@ void input_shutdown(struct i2c_client* i2c_client)
 
 	// Remove context from global state
 	// (It is freed by the device-specific memory mananger)
-    del_timer(&g_kbd_timer);
+    //del_timer(&g_kbd_timer);
+    timer_delete(&g_kbd_timer);
 	g_ctx = NULL;
 }
 
