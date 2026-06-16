@@ -237,7 +237,7 @@ sudo dpkg-reconfigure locales
 and set it to --> en_GB.utf-8
 
 ## Future Roadmap or what I like to look into:
-* Add a Battery status with Termux or byobu
-* Poweroff automatically over STM32
+* Add a Battery status with Termux or byobu - done (termux)
+* Poweroff automatically over STM32 - done
 * Connect a thermal camera to the back of the Picocalc (GPIOs from Pi Zero are accessable)
 
